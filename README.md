@@ -6,7 +6,10 @@ Bikeshare database analysis
 
 ### Description
 Calculates statistics for analysis of bike rental databases for Chicago, New York and Washington.
-Allows the user to specify filters for desired output.
+Allows the user to:
+- specify filters for desired output
+- print out raw data
+
 
 ### Files used
 bikeshare_2.py
