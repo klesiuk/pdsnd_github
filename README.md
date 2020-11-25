@@ -1,15 +1,17 @@
 ### Date created
-Include the date you created this project and README file.
+2020-11-25
 
 ### Project Title
-Replace the Project Title
+Bikeshare database analysis
 
 ### Description
-Describe what your project is about and what it does
+Calculates statistics for analysis of bike rental databases for Chicago, New York and Washington.
+Allows the user to specify filters for desired output.
 
 ### Files used
-Include the files used
+bikeshare_2.py
+chicago.csv
+new_york_city.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+none
