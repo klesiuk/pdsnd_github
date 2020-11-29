@@ -178,8 +178,8 @@ def main():
         df = load_data(city, month, day)
 
         time_stats(df)
-        station_stats(df)
         trip_duration_stats(df)
+        station_stats(df)
         user_stats(df)
 
         # Print raw output data (5 rows at a time)
