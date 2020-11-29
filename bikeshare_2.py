@@ -19,7 +19,7 @@ def get_filters():
     # get user input for city (chicago, new york city, washington). 
     while True:
         try:
-            city = str(input("Enter the name of the city you would like to see data for: chicago / new york city / washington: ").lower())
+            city = str(input("Enter the name of the city: chicago / new york city / washington: ").lower())
             if city in CITY_DATA.keys():
                 break
             print("This is not a valid city name, try again.")
@@ -178,8 +178,8 @@ def main():
         df = load_data(city, month, day)
 
         time_stats(df)
-        station_stats(df)
         trip_duration_stats(df)
+        station_stats(df)
         user_stats(df)
 
         # Print raw output data (5 rows at a time)
